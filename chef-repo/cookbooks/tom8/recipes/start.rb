@@ -10,5 +10,5 @@ end
 
 execute 'restart' do
   command 'initctl restart tomcat'
-  action :run
+  action :enable
 end
